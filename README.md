@@ -135,3 +135,51 @@ Le système BI doit permettre de :
 ---
 
 ## 🏗 Architecture technique
+
+*[À compléter avec le schéma de votre architecture]*
+
+---
+
+## 💻 Stack technologique
+
+| Composant | Technologie |
+|-----------|-------------|
+| **Frontend** | Angular |
+| **Backend** | Flask / Django |
+| **ETL** | Talend |
+| **Orchestration** | Apache AirFlow / n8n |
+| **Visualisation BI** | Power BI |
+| **Base de données** | [À définir] |
+
+---
+
+## 🚀 Installation
+
+*[À compléter avec les instructions d'installation]*
+
+---
+
+## 👥 Équipe
+
+| Nom | Rôle |
+|-----|------|
+| Abderrahim Arwa | Chef de projet & Data Engineer |
+| Mejri Eya | Data Analyst & BI |
+| Karoui Ahmed | Développeur Backend |
+| Mannai Abir | Développeur Frontend |
+| Attyaoui Amenallah | Data Scientist & ETL |
+
+---
+
+## 🎓 Contexte académique
+
+Développé à **Esprit School of Engineering – Tunisie**  
+**PI-BI | 4BI5 | 2025-2026**
+
+---
+
+<div align="center">
+  
+**Développé avec ❤️ par l'équipe Padel Analytics - 4BI5 - Esprit**
+
+</div>
