@@ -1,4 +1,4 @@
-# 🎾 SportsPadel - Plateforme de Gestion Sportive & Business Intelligence
+#  SportsPadel - Plateforme de Gestion Sportive & Business Intelligence
 
 <div align="center">
   
@@ -25,13 +25,13 @@
 
 ---
 
-## 🎯 Aperçu du projet
+##  Aperçu du projet
 
 **SportsPadel** est une plateforme innovante de **gestion sportive** dédiée aux clubs et joueurs de Padel. Ce projet intègre des fonctionnalités avancées de **Business Intelligence** pour permettre une prise de décision data-driven dans le domaine sportif.
 
 Développé dans le cadre du **PI-BI (Projet Intégré en Business Intelligence)** de 4ème année à **Esprit School of Engineering**, ce projet vise à démontrer la maîtrise des technologies web modernes couplées à des solutions d'analyse de données.
 
-### ✨ Objectifs principaux
+###  Objectifs principaux
 - Digitaliser la gestion des clubs de Padel
 - Collecter et analyser les données sportives
 - Fournir des insights actionnables aux gestionnaires et entraîneurs
@@ -39,23 +39,23 @@ Développé dans le cadre du **PI-BI (Projet Intégré en Business Intelligence)
 
 ---
 
-## ⚙️ Fonctionnalités
+##  Fonctionnalités
 
-### 👥 Côté Joueurs
+###  Côté Joueurs
 - Inscription et authentification sécurisée
 - Réservation de terrains en ligne
 - Consultation de l'historique des matchs
 - Statistiques personnelles de performance
 - Système de classement ELO
 
-### 🏢 Côté Gestionnaires
+###  Côté Gestionnaires
 - Dashboard administrateur
 - Gestion des terrains et des horaires
 - Suivi des réservations en temps réel
 - Gestion des membres et abonnements
 - Rapports d'activité automatisés
 
-### 📊 Business Intelligence
+###  Business Intelligence
 - Tableaux de bord interactifs (Power BI / intégrés)
 - Analyse des tendances de fréquentation
 - Prédiction des heures d'affluence
