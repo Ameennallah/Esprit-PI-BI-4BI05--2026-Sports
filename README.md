@@ -1,66 +1,136 @@
-# 🎾 SportsPadel - Plateforme de Gestion Sportive & Business Intelligence
+# 🎾 Padel Analytics - Plateforme Décisionnelle pour l'Écosystème du Padel
 
 <div align="center">
   
   ![Esprit School of Engineering](https://img.shields.io/badge/Esprit-School%20of%20Engineering-blue)
   ![PI-BI](https://img.shields.io/badge/PI-BI-4th%20Year-green)
   ![Academic Year](https://img.shields.io/badge/Year-2025--2026-orange)
-  ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
+  ![Stack](https://img.shields.io/badge/Stack-Angular%20%7C%20Flask%20%7C%20Power%20BI-red)
   
 </div>
 
 ---
 
 ## 📋 Table des matières
-- [Aperçu du projet](#aperçu-du-projet)
+- [Présentation du projet](#présentation-du-projet)
+- [Objectifs](#objectifs)
 - [Fonctionnalités](#fonctionnalités)
+- [Indicateurs de performance (KPIs)](#indicateurs-de-performance-kpis)
 - [Architecture technique](#architecture-technique)
-- [Captures d'écran](#captures-décran)
+- [Stack technologique](#stack-technologique)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
-- [Business Intelligence](#business-intelligence)
 - [Équipe](#équipe)
 - [Contexte académique](#contexte-académique)
-- [Licence](#licence)
 
 ---
 
-## 🎯 Aperçu du projet
+## 🎯 Présentation du projet
 
-**SportsPadel** est une plateforme innovante de **gestion sportive** dédiée aux clubs et joueurs de Padel. Ce projet intègre des fonctionnalités avancées de **Business Intelligence** pour permettre une prise de décision data-driven dans le domaine sportif.
+**Padel Analytics** est une plateforme décisionnelle dédiée à l'analyse de l'écosystème du **padel professionnel et amateur**.
 
-Développé dans le cadre du **PI-BI (Projet Intégré en Business Intelligence)** de 4ème année à **Esprit School of Engineering**, ce projet vise à démontrer la maîtrise des technologies web modernes couplées à des solutions d'analyse de données.
-
-### ✨ Objectifs principaux
-- Digitaliser la gestion des clubs de Padel
-- Collecter et analyser les données sportives
-- Fournir des insights actionnables aux gestionnaires et entraîneurs
-- Améliorer l'expérience des joueurs
+Le projet vise à **centraliser, enrichir et analyser** des données relatives aux **joueurs**, aux **équipements** et aux **tournois** afin de fournir des indicateurs stratégiques à destination des :
+- Fédérations sportives
+- Sponsors et marques d'équipements
+- Organisateurs de tournois
+- Analystes sportifs
+- Joueurs professionnels et amateurs
 
 ---
 
-## ⚙️ Fonctionnalités
+## 🎯 Objectifs du système
 
-### 👥 Côté Joueurs
-- Inscription et authentification sécurisée
-- Réservation de terrains en ligne
-- Consultation de l'historique des matchs
-- Statistiques personnelles de performance
-- Système de classement ELO
+Le système BI doit permettre de :
 
-### 🏢 Côté Gestionnaires
-- Dashboard administrateur
-- Gestion des terrains et des horaires
-- Suivi des réservations en temps réel
-- Gestion des membres et abonnements
-- Rapports d'activité automatisés
+| # | Objectif |
+|---|----------|
+| 1 | Analyser la performance des joueurs sur les 3 dernières années |
+| 2 | Identifier les tendances d'équipements |
+| 3 | Évaluer la popularité et l'impact des tournois |
+| 4 | Aider les marques à cibler les bons profils de joueurs |
+| 5 | Aider les organisateurs à optimiser leurs événements |
+| 6 | Gérer les réservations de matchs |
+| 7 | Produire des dashboards décisionnels dynamiques |
 
-### 📊 Business Intelligence
-- Tableaux de bord interactifs (Power BI / intégrés)
-- Analyse des tendances de fréquentation
-- Prédiction des heures d'affluence
-- Analyse des performances des joueurs
-- Export des données aux formats CSV/Excel/PDF
+---
+
+## ⚙️ Fonctionnalités principales
+
+### 📊 Analytics & BI
+- Tableaux de bord interactifs (Power BI)
+- Analyse des performances joueurs
+- Analyse des tendances d'équipements
+- Évaluation de la popularité des tournois
+- Corrélations équipement / performance
+
+### 👥 Gestion des joueurs
+- Profils détaillés
+- Historique des performances
+- Suivi du classement
+- Statistiques par surface et par tournoi
+
+### 🏆 Gestion des tournois
+- Création et gestion d'événements
+- Suivi des participants
+- Analyse des audiences
+- Calcul du prize money
+
+### 🎾 Gestion des équipements
+- Catalogue des marques
+- Analyse des tendances
+- Prix moyen par catégorie
+- Joueurs sponsorisés
+
+---
+
+## 📊 Indicateurs de performance (KPIs)
+
+### 🎯 KPIs Sportifs – Joueurs
+- Nombre de matchs joués
+- Taux de victoire (%)
+- Classement moyen
+- Évolution du classement
+- Performance par surface
+- Performance par tournoi
+- Ratio points gagnés / matchs
+
+### 🏟️ KPIs Tournois
+- Nombre de participants par tournoi
+- Répartition des nationalités
+- Taux de participation mensuel
+- Audience estimée
+- Joueurs les plus performants par tournoi
+- Fidélité des joueurs (participations répétées)
+
+### 🎾 KPIs Équipements
+- Marques les plus utilisées
+- Répartition des équipements par type
+- Prix moyen par catégorie
+- Joueurs sponsorisés par marque
+- Performance des joueurs selon l’équipement
+- Corrélation équipement / performance
+
+### 📈 KPIs Business & Marketing
+- Visibilité des marques
+- Popularité des joueurs
+- Popularité des tournois
+- Taux de croissance du padel
+
+---
+
+## 📊 Tableau synoptique des KPIs
+
+| KPI | Catégorie | Description | Type | Fréquence |
+|-----|-----------|-------------|------|-----------|
+| Nombre total de joueurs | Sportif | Nombre de joueurs actifs | Quantitatif | Mensuelle |
+| Taux de victoire | Sportif | % de matchs gagnés | Pourcentage | Mensuelle |
+| Classement moyen | Sportif | Classement moyen par joueur | Numérique | Mensuelle |
+| Nombre de tournois | Tournoi | Tournois organisés en 2025 | Quantitatif | Annuelle |
+| Participants par tournoi | Tournoi | Nombre moyen de joueurs | Quantitatif | Mensuelle |
+| Prize money total | Tournoi | Montant total des gains | Financier | Mensuelle |
+| Marque la plus utilisée | Équipement | Popularité par marque | Classement | Mensuelle |
+| Prix moyen des raquettes | Équipement | Moyenne par gamme | Financier | Mensuelle |
+| Joueurs sponsorisés | Business | Joueurs par marque | Quantitatif | Mensuelle |
 
 ---
 
